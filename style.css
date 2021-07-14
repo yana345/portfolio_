@@ -1,0 +1,140 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "メイリオ";
+  text-align: center;
+  padding-bottom: 65px;
+}
+
+header {
+  padding-top: 124px;
+  padding-bottom: 122px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header-left {
+  display: flex;
+}
+
+.header-logo img {
+  width: 120px;
+  padding-left: 40px;
+}
+
+.header-nav {
+  display: flex;
+  margin-left: 384px;
+  line-height: 38px;
+}
+
+.header-nav li {
+  padding-left: 60px;
+}
+
+main {
+  padding-bottom: 80px;
+}
+#main-img {
+  background-image: url(./img/roses-828945_1920.jpg);
+  width: 100%;
+  height: 420px;
+}
+
+.sns {
+  display: flex;
+}
+
+.about {
+  padding-bottom: 100px;
+}
+
+.about-img img {
+ width: 300px;
+ padding-left: 139px;
+ padding-top: 44px;
+}
+
+.about-text {
+  padding-left: 30px;
+  padding-top: 108px;
+  font-size: 19px;
+}
+
+.works-contaner {
+  padding-bottom: 173px;
+}
+
+.ingg {
+  width: 50%;
+  text-align: center;
+}
+
+.works {
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+
+.work-list-item img {
+  width: 264px;
+  
+}
+
+.work-list-item {
+  display: inline-block;
+  padding-bottom: 30px;
+  padding-right: 74px;
+  box-shadow: 0 0 7px rgb(191, 243, 4);
+  margin-bottom: 20px;
+  margin-right: 3px;
+}
+
+.work-list-item:nth-child(3n) {
+  padding-right: 0;
+}
+
+
+.work-box {
+  display: flex;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(255, 0, 13);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-list-item {
+  padding-right: 20px;
+}
+
+.twitter-icon {
+  padding-top: 2px;
+  margin-left: 20px;
+  color: blue;
+}
+
+.color {
+  color: rgb(107, 122, 122);
+}
