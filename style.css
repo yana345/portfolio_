@@ -177,7 +177,7 @@ background-repeat: no-repeat;
   
 
   .about-text {
-   padding-left: 110px;
+   padding-left: 43px;
    font-size: 7px;
    padding-top: 0;
    width: 438px;
@@ -191,6 +191,10 @@ background-repeat: no-repeat;
     width: 350px;
     padding-left: 0;
     padding-top: 0;
+  }
+
+  .about-img img {
+    padding-left: 93px;
   }
 
   .sns {
