@@ -138,3 +138,86 @@ footer {
 .color {
   color: rgb(107, 122, 122);
 }
+
+@media (max-width: 599px) {
+  body{
+    overflow-x: hidden;
+}
+
+  .section-title {
+    padding-bottom: 0;
+  }
+
+.header {
+  padding-bottom: 60px;
+}
+
+.header-logo {
+  padding-bottom: 35px;
+}
+
+.header-left {
+  display: block;
+}
+
+
+  .header-nav {
+    margin-left: 0;
+    padding-left: 65px;
+  }
+
+  #main-img {
+    width: 100%;
+background-size: contain;
+background-repeat: no-repeat;
+  }
+
+  
+
+  .about-text {
+   padding-left: 110px;
+   font-size: 7px;
+   padding-top: 0;
+   width: 438px;
+  }
+
+  .about {
+    padding-bottom: 0;
+  }
+
+  .about-img {
+    width: 350px;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .sns {
+    display: block;
+  }
+
+.works-container {
+  padding-bottom: 64px;
+}
+
+.work-list-item {
+  padding-bottom: 0;
+  padding-right: 0;
+  margin-right: 0;
+  margin-bottom: 24px;
+  width: 85%;
+}
+
+
+
+.work-list-item img {
+  width: 85%;
+}
+
+.footer-list {
+  padding-left: 24px;
+}
+
+footer {
+  width: 100%;
+}
+}
