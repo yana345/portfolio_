@@ -52,6 +52,8 @@ main {
 }
 #main-img {
   background-image: url(./img/roses-828945_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 420px;
 }
