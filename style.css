@@ -10,6 +10,9 @@ img {
   width: 100%;
 }
 
+body {
+}
+
 .section-title {
   font-size: 24px;
   font-weight: bold;
@@ -48,7 +51,7 @@ header {
 }
 
 .header-nav a {
-  color:rgb(255, 0, 13)
+  color: #000;
 }
 
 main {
@@ -141,9 +144,13 @@ footer {
   color: rgb(107, 122, 122);
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 414px) {
   body{
-    overflow-x: hidden;
+    background-color: aqua;
+}
+
+img {
+  width: 100%;
 }
 
   .section-title {
@@ -169,20 +176,23 @@ footer {
   }
 
   .header-nav li {
-    padding-left: 88px;
+    padding-left: 60px;
   }
 
   #main-img {
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
+    height: 294px;
   }
   
 
+
   .about-text {
-   font-size: 7px;
+   font-size: 10px;
    padding-top: 0;
    word-break: normal;
+   padding-left: 28px;
   }
 
   .about {
@@ -196,7 +206,7 @@ footer {
   }
 
   .about-img img {
-    padding-left: 144px;
+    padding-left: 62px;
   }
 
   .sns {
