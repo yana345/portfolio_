@@ -47,6 +47,10 @@ header {
   padding-left: 60px;
 }
 
+.header-nav a {
+  color:rgb(255, 0, 13)
+}
+
 main {
   padding-bottom: 80px;
 }
@@ -78,14 +82,10 @@ main {
   font-size: 19px;
 }
 
-.works-contaner {
+.works-container {
   padding-bottom: 173px;
 }
 
-.ingg {
-  width: 50%;
-  text-align: center;
-}
 
 .works {
   padding-top: 100px;
@@ -141,7 +141,7 @@ footer {
   color: rgb(107, 122, 122);
 }
 
-@media (max-width: 599px) {
+@media screen and (max-width: 599px) {
   body{
     overflow-x: hidden;
 }
@@ -168,19 +168,21 @@ footer {
     padding-left: 65px;
   }
 
-  #main-img {
-    width: 100%;
-background-size: contain;
-background-repeat: no-repeat;
+  .header-nav li {
+    padding-left: 88px;
   }
 
+  #main-img {
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
   
 
   .about-text {
-   padding-left: 43px;
    font-size: 7px;
    padding-top: 0;
-   width: 438px;
+   word-break: normal;
   }
 
   .about {
@@ -188,13 +190,13 @@ background-repeat: no-repeat;
   }
 
   .about-img {
-    width: 350px;
+    width: 100%;
     padding-left: 0;
     padding-top: 0;
   }
 
   .about-img img {
-    padding-left: 93px;
+    padding-left: 144px;
   }
 
   .sns {
