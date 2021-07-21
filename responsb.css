@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+  body {
+    background-color: blueviolet;
+  }
+
+  header {
+    padding-top: 11px;
+    padding-bottom: 9px;
+  }
+
+  .header-logo {
+    padding-bottom: 20px;
+  }
+
+  .header-logo img {
+    padding-left: 51px;
+  }
+
+  .header-nav li {
+    padding-left: 16px;
+  }
+
+  .header-nav {
+    margin-left: 0;
+  }
+
+  .header-left {
+    display: block;
+  }
+}
