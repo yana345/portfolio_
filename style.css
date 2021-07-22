@@ -21,6 +21,24 @@ body {
   padding-bottom: 65px;
 }
 
+#drawer-check {
+  display: none;
+}
+
+.drawer-list {
+  display: flex;
+}
+
+
+
+.header-logo {
+  margin-right: auto;
+}
+
+.drawer-item {
+  padding-left: 30px;
+}
+
 header {
   padding-top: 124px;
   padding-bottom: 122px;
