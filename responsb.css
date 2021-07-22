@@ -1,6 +1,8 @@
 @media (max-width: 600px) {
-  body {
-    background-color: blueviolet;
+  
+
+  .section-title {
+    padding-bottom: 0;
   }
 
   header {
@@ -10,14 +12,16 @@
 
   .header-logo {
     padding-bottom: 20px;
+    text-align: center;
   }
 
   .header-logo img {
-    padding-left: 51px;
+    padding-left: 25px;
+    padding-top: 44px;
   }
 
   .header-nav li {
-    padding-left: 16px;
+    padding-left: 71px;
   }
 
   .header-nav {
@@ -25,6 +29,35 @@
   }
 
   .header-left {
-    display: block;
+    
+  }
+
+  .about {
+    padding-bottom: 0;
+  }
+
+  .about-img {
+    width: 60%;
+  }
+
+  .about-img img {
+    padding-left: 123px;
+    padding-top: 87px;
+    width: 68%;
+  }
+
+  .about-text {
+padding-top: 119px;
+padding-left: 0;
+font-size: 15px;
+padding-right: 30px;
+  }
+
+  .works-container {
+padding-bottom: 45px;
+  }
+
+  .work-box {
+   padding-left: 91px;
   }
 }
