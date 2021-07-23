@@ -74,11 +74,26 @@
 }
 
 .drawer-open {
-  padding-left: 193px;
+  padding-left: 0px;
+  padding-right: 11px;
+}
+
+.drawer-item {
+  padding-top: 33px;
 }
 
   .section-title {
     padding-bottom: 0;
+  }
+
+  .drawer-list {
+    display: block;
+    padding-top: 146px;
+    padding-left: 151px;
+  }
+
+  .drawer-list a {
+    color: red;
   }
 
   header {
