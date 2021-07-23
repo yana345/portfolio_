@@ -132,7 +132,7 @@
   }
 
   .about-img img {
-    padding-left: 116px;
+    padding-left: 103px;
     width: 66%;
   }
 
@@ -167,7 +167,7 @@
   .footer-list-item {
     font-size: 12px;
     padding-right: 28px;
-    padding-left: 23px;
+    padding-left: 2px;
   }
 
   .footer-list-item:last-child {
