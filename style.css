@@ -53,7 +53,7 @@ body {
 
 .nav-item {
   padding-left: 45px;
-  line-height: 180px;
+  padding-top: 81px;
 }
 
 .nav-item a {
@@ -268,3 +268,68 @@ footer {
   color:rgb(35, 235, 45);
 }
 
+@media screen and (width: 375px) { 
+.header {
+  max-width: 375px;
+}
+.header-inner {
+  max-width: 375px;
+  height: 400px;
+  margin-right: auto;
+}
+.header-box {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-title {
+  max-width: 150px;
+  padding: 15px;
+  font-size: 40px;
+  position: absolute;
+  top: 51%;
+  left: 22%;
+}
+.nav-item {
+  padding-top: 20px;
+}
+.swiper-title {
+
+}
+.swiper-title::before {
+width: 92%;
+}
+.swiper-slide {
+  width: 359px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: 9px;
+  top: 101px;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  right: 6px;
+  top: 101px;
+}
+.swiper-container {
+  height: 243px;
+  width: 95vw;
+}
+.consept-box {
+margin-top: 0;
+}
+.consept-title {
+  padding-right: 9px;
+  
+}
+.box30 p {
+  font-size: 16px;
+}
+.box-title {
+  padding-bottom: 8px;
+}
+.about-title-text {
+  font-size: 16px;
+}
+.footer-box {
+font-size: 18px;
+padding-left: 21px;
+}
