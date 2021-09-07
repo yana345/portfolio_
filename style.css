@@ -244,10 +244,9 @@ input[type="reset"]{
   .sp { display: block !important; }
   .nav-item a {
     font-size: 11px;
-    padding: 0 11px;
   }
   .form-item {
-    display: flex;
+    
   }
   .label {
     font-size: 24px;
@@ -255,7 +254,7 @@ input[type="reset"]{
     padding-left: 3%;
   }
   .skill {
-    height: 1062px;
+    height: 1172px;
   }
   .skill-items {
     display: block;
@@ -263,6 +262,7 @@ input[type="reset"]{
   }
   .skill-item {
     padding-left: 0;
+    height: 317px;
   }
   .skill-text {
     font-size: 16px;
@@ -273,17 +273,19 @@ input[type="reset"]{
   }
   .work-card-item {
     display: block;
+    padding-bottom: 14px;
   }
   .work-card-item img {
     width: 100%;
   }
   .work-card-item p {
-    width: 90%;
-    padding-left: 5%;
+    width: 78%;
+    padding-left: 0%;
     padding-top: 0;
     padding-right: 0%;
-    font-size: 25px;
     padding-bottom: 50px;
+    font-size: 15px;
+    margin: 0 auto;
   }
   .work-span {
     padding: 10px 0;
@@ -293,10 +295,20 @@ input[type="reset"]{
   }
   .concept-text {
     padding: 0 11%;
-    font-size: 16px;
+    font-size: 12px;
     padding-bottom: 60px;
+  }
+  textarea {
+    width: 91%;
+  }
+  .inputs {
+    width: 91%;
+  }
+  .form-comment {
+    line-height: 46px;
   }
   .section-title {
     padding-bottom: 17px;
+    font-size: 26px;
   }
 }
