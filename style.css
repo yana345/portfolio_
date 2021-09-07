@@ -10,14 +10,21 @@ li {
   text-decoration: none;
 }
 .color-inner {
-  background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)) ;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.height-color-inner {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 header {
   max-width: 1280px;
   margin: 0 auto;
+  background-image: url(./imges/splotches-of-color-2115992_1280.png);
+  background-repeat: no-repeat;
+  background-size: cover
 }
 .header-inner {
-  height: ;
   margin: 0 auto;
 }
 .nav-items {
@@ -32,7 +39,7 @@ margin: 0 auto;
   padding-left: 23px;
 }
 .nav-item a {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bold;
   color: #000;
 }
@@ -76,11 +83,12 @@ color: red
   margin: 0 auto;
   outline: 3px solid #000;
   outline-offset: -45px;
-  color: #fff;
+  background-color: rgba(201, 234, 247, 0.884);
 }
 .work {
   max-width: 1280px;
   margin: 0 auto;
+  background-color: rgba(201, 234, 247, 0.884);
 }
 .work-inner {
   margin: 0 auto;
@@ -137,7 +145,7 @@ color: red
 .contact {
   max-width: 1280px;
   margin: 0 auto;
- background-image: url(./jasmin-2458700_1280.jpg);
+ background-image: url(./imges/jasmin-2458700_1280.jpg);
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -189,7 +197,7 @@ textarea{
   line-height: 184px;
 }
 input[type="submit"]{
-  background: #3399FF;
+  background: orange;
   border: none;
   color: white;
   font-size:23px;
