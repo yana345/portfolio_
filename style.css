@@ -25,7 +25,7 @@ li {
   background-size: cover;
 }
 .header-logo {
-  font-size: 7.45vw;
+  font-size: 4.45vw;
   font-family: 'arial black';
   padding-left: 130px;
   padding-top: 30px;
@@ -92,14 +92,14 @@ margin: 0 auto;
 .coding-text {
   width: 1100px;
   margin: 0 auto;
-  font-size: 2.23vw;
+  font-size: 1.23vw;
   line-height: 1.2;
   width: 92%;
 }
 .coding-text-text {
   text-align: center;
   padding-top: 51px;
-  font-size: 3.23vw;
+  font-size: 1.23vw;
 }
 .skill {
   max-width: 1280px;
@@ -114,11 +114,17 @@ margin: 0 auto;
   width: 100%;
   margin: 0 auto;
   display: flex;
+  background-color: rgba(140, 247, 113, 0.959);
+  padding-top: 3%;
+  justify-content: space-between;
 }
 .skill-item {
  width: 26%;
  text-align: center;
  padding-left: 40px;
+}
+.skill-item:first-child {
+  padding-left: 0;
 }
 .skill-item img {
  width: 100px;
@@ -130,8 +136,12 @@ margin: 0 auto;
   padding-bottom: 27px;
 }
 .skill-text {
-  font-size: 2.34vw;
+  font-size: 1vw;
   line-height: 1.5;
+}
+.about-inner {
+  width: 1280px;
+  margin: 0 auto;
 }
 
 
@@ -167,8 +177,9 @@ th {
   background-color: #d79ff8;
 }
 .about-img {
-  width: 4.45vw;
+  width: 6.45vw;
 }
+
 
 
 
@@ -198,7 +209,7 @@ th {
     padding-left: 12px;
   }
   .skill {
-    height: 500px;
+    height: 338px;
   }
   .skill-item img {
     width: 85%;
@@ -241,5 +252,11 @@ th {
   }
   .about-table1 tr:last-child{
     border-bottom: solid 1px red;
+  }
+  .about-inner {
+    width: 100%;
+  }
+  .coding {
+    height: 370px;
   }
 }
